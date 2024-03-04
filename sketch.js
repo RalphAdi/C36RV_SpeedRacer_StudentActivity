@@ -14,11 +14,11 @@ function setup() {
   database = firebase.database();
   game = new Game();
   game.start();
-
+  bgImg = backgroundImage;
 }
 
 function draw() {
-  background(backgroundImage);
+  background(bgImg);
 }
 
 function windowResized() {
